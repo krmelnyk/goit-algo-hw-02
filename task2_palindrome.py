@@ -3,7 +3,7 @@ from collections import deque
 
 def is_palindrome(s):
     # Remove spaces and convert to lowercase
-    s = s.replace(" ", "").lower()
+    s = "".join(s.lower().split())
 
     # Create a deque from the string
     char_deque = deque(s)

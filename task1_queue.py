@@ -43,5 +43,6 @@ def main():
     
     while not request_queue.empty():
         process_request()
+        
 if __name__ == "__main__":
     main()
